@@ -46,12 +46,10 @@ public class Main extends Application {
         System.setProperty("file.encoding","utf-8");
         stage.setMaximized(true);
         stage.setTitle("Call to Memory");
-
+        stage.getIcons().add(new Image("resources/brainstorm.png"));
         BorderPane borderPane = new BorderPane();
         Scene scene = new Scene(borderPane, Color.WHITE);
         scene.getStylesheets().add(this.getClass().getResource("/stylesheet.css").toExternalForm());
-        stage.getIcons().add(new Image("resources/brainstorm.png"));
-
         File options = new File("src\\resources\\options.txt");
         BufferedReader bufferedReader;
         try {
@@ -72,15 +70,8 @@ public class Main extends Application {
 
         stage.setOnCloseRequest(we -> exit(0));
 
-        scene.addEventFilter(MouseEvent.MOUSE_PRESSED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent mouseEvent) {
-                borderPane.setBackground(null);
-                borderPane.setTop(menuLoad(stage));
-                startScene(stage);
-                scene.removeEventFilter(MouseEvent.MOUSE_PRESSED, this);
-            }
-        });
+        borderPane.setTop(menuLoad(stage));
+        startScene(stage);
     }
 
     public void startScene(Stage stage){
