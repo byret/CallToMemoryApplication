@@ -1,0 +1,153 @@
+
+@font-face {
+    src: url("/fonts/Jost.ttf");
+}
+@font-face {
+    src: url("/fonts/Roboto.ttf");
+}
+
+.root {
+    -fx-font-family: "Roboto Light";
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+.button:hover {
+	-fx-background-color: transparent;
+}
+
+.text-input {
+	-fx-control-inner-background: #b5c5ff;
+}
+
+#large-text {
+	-fx-font-family: "Jost SemiBold";
+	-fx-font-size: 30pt;
+}
+
+
+#create-new-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_new_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+#create-new-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_new_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+	-fx-cursor: hand;
+}
+#create-new-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_new_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+
+
+#open-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+#open-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+	-fx-cursor: hand;
+}
+#open-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+
+
+#open-prev-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_prev_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+#open-prev-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_prev_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+	-fx-cursor: hand;
+}
+#open-prev-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('open_prev_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 340px;
+}
+
+
+#create-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+}
+#create-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+	-fx-cursor: hand;
+}
+#create-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('create_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+}
+
+
+#check-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('check_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+}
+#check-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('check_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+	-fx-cursor: hand;
+}
+#check-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('check_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 252px;
+}
+
+
+#ok-button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('ok_static.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 100px;
+}
+#ok-button:hover  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('ok_hover.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 100px;
+	-fx-cursor: hand;
+}
+#ok-button:pressed  {
+	-fx-background-color: transparent;
+	-fx-background-image: url('ok_pressed.png');
+    -fx-pref-height: 55px;
+    -fx-pref-width: 100px;
+}
